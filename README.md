@@ -31,5 +31,15 @@ Decimal  | Binary  | Gray
 14  | 1110 | 1001
 15  | 1111 | 1000
 
+Here's another rendering of the Gray Code, arranged in a circle. This is the bit pattern of the dial when it is traveled counter clockwise.
+
+![GrayCodeWheel](assets/GrayCodeWheel.bmp)
+
 ## Hardware
-The hardware is in prototype. Current goal is to design a 2-up encoder board with a PISO shift register for acquiring the encoder positions. This 2-up board will be daisy-chainable with sister boards.
+
+The hardware is in prototype. Current goal is to design a 2-up encoder board with a PISO shift register for acquiring the encoder positions. This 2-up board will be daisy-chainable with sister boards using the same PISO pins to add as many pairs of encoders that you want!
+
+## Software
+
+Arduino library is in the works that will read and decode as many Gray Code encoders that you have daisy chained together!
+
