@@ -3,5 +3,10 @@
 *.bmp
 *.xcf
 *.gbr
+*.gbrjob
 *.drl
 *.pos
+*.csv#
+*.csv
+*.xlsx
+*.ods
