@@ -41,7 +41,13 @@ Here's another rendering of the Gray code, arranged in a circle. This is the bit
 
 The hardware is in prototype stage. I am using the [PAC18R](https://github.com/biomurph/GrayCode_Encoder_Board/blob/main/assets/pac18r-2511013.pdf) Absolute Encoder from Bourns. They have a 4 pin output, and 16 switch positions. The board will carry 2 encoders and use a PISO shift register to read their positions. SW1 is connectec to the low nibble, and SW2 is connected to the high nibble. These boards can be daisy-chained, and the GrayCode library is designed to read off as many encoder positions as you have connected. 
 
-## Software
+Here is the schematic
+![GrayCode Schematic](assets/Gray_Encoder_Schem.pdf)
 
-Arduino library is in the works that will read and decode as many Gray Code encoders that you have daisy chained together!
+Here are renderings of the design, done in KiCAD.
+
+
+![Board Bottom](assets/Absolute_Encoder_Bottom.png)
+![Board Top](assets/Absolute_Encoder_Top.png)
+
 

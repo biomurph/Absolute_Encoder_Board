@@ -5715,6 +5715,17 @@
 			(pintype "input")
 			(uuid "8ac418fe-ea8c-4bf5-b188-76f27594e6c7")
 		)
+		(model "/Users/biomurph/Documents/biomurph github/GrayCode_Encoder_Board/assets/PAC18R_Model.step"
+			(offset
+				(xyz 8.5 0.5 0)
+			)
+			(scale
+				(xyz 1 0.9 1)
+			)
+			(rotate
+				(xyz 0 0 -90)
+			)
+		)
 	)
 	(footprint "Flywheel:PAC18R"
 		(layer "B.Cu")
@@ -5724,7 +5735,7 @@
 			(at 9.6 -1.019806 0)
 			(unlocked yes)
 			(layer "B.SilkS")
-			(uuid "0522dfa8-f033-4cf0-a6c6-265dfbda5419")
+			(uuid "6f0133d3-f8eb-4086-a22a-3901315de562")
 			(effects
 				(font
 					(size 1 1)
@@ -5737,7 +5748,7 @@
 			(at 3.449999 8.4 180)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "dfaaee9b-d788-49c5-a63b-3fb693dd3390")
+			(uuid "eead0f30-4680-4558-913c-016146489dce")
 			(effects
 				(font
 					(size 1 1)
@@ -5751,7 +5762,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "06e2974c-8ad3-4383-a52c-a1f28f7e3f42")
+			(uuid "83ec9d46-473e-4791-87eb-6ca425833f53")
 			(effects
 				(font
 					(size 1 1)
@@ -5765,7 +5776,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "81924d52-de1b-472e-a70f-eaa4978f6866")
+			(uuid "138991f4-0122-4ad6-83f4-c65f620426aa")
 			(effects
 				(font
 					(size 1 1)
@@ -5779,7 +5790,7 @@
 			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "0f91e6a2-10a7-4337-ba9f-e35d98d57d23")
+			(uuid "d9d3ccfb-b9bf-45ec-b0a8-a6462e5ca821")
 			(effects
 				(font
 					(size 1 1)
@@ -5800,7 +5811,7 @@
 				(type default)
 			)
 			(layer "B.SilkS")
-			(uuid "d8bbc77c-9780-4c56-bbcb-7f2af870b1a2")
+			(uuid "4afc45e7-b3e0-4914-a300-622ab2e84487")
 		)
 		(fp_line
 			(start -9 13)
@@ -5810,7 +5821,7 @@
 				(type default)
 			)
 			(layer "B.SilkS")
-			(uuid "b4d7f103-f3fc-4387-932d-2b1435251a96")
+			(uuid "f236ac4e-c69c-4965-bc33-a7840d788e58")
 		)
 		(fp_line
 			(start 9 1)
@@ -5820,7 +5831,7 @@
 				(type default)
 			)
 			(layer "B.SilkS")
-			(uuid "c9e11502-8f1a-48c6-8b42-ea240fa2357c")
+			(uuid "e2314b41-32b1-4f4d-8b62-8a226735e0d7")
 		)
 		(fp_line
 			(start 9 13)
@@ -5830,7 +5841,7 @@
 				(type default)
 			)
 			(layer "B.SilkS")
-			(uuid "725217af-ac9a-4236-b4b8-3bc37f4255ef")
+			(uuid "8ef278d6-a03a-40ba-bea6-b6e36c9bbf35")
 		)
 		(fp_line
 			(start 9 21)
@@ -5840,13 +5851,13 @@
 				(type default)
 			)
 			(layer "B.SilkS")
-			(uuid "46563ae9-2773-4f88-a85d-bf92d8bfa367")
+			(uuid "e111c5d7-b3d0-48fc-a616-d7ca1f64da2d")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0.25 10.85 180)
 			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "a33dd1d2-83d7-49ad-87e3-874900016024")
+			(uuid "45090d12-3bcf-419d-9544-84b01ca5edcb")
 			(effects
 				(font
 					(size 1 1)
@@ -5864,7 +5875,7 @@
 			(net 7 "/D0")
 			(pinfunction "P1")
 			(pintype "output")
-			(uuid "970ef56d-8f06-4068-9304-1fbd9871fe35")
+			(uuid "5c403eab-91c7-44f4-ae5d-fce761ce7cf7")
 		)
 		(pad "2" thru_hole circle
 			(at -6.5 0)
@@ -5875,7 +5886,7 @@
 			(net 8 "/D1")
 			(pinfunction "P2")
 			(pintype "output")
-			(uuid "4ae34d23-3d53-42c6-a302-09a59aecfb83")
+			(uuid "2388aa4a-d53b-4146-b996-a7f64267d86d")
 		)
 		(pad "3" thru_hole circle
 			(at 3.75 0)
@@ -5886,7 +5897,7 @@
 			(net 10 "/D2")
 			(pinfunction "P3")
 			(pintype "output")
-			(uuid "a5f34360-36f1-4170-8418-25f66154e613")
+			(uuid "7b540955-7077-4619-8913-ba53df05bb26")
 		)
 		(pad "4" thru_hole circle
 			(at -1.25 0)
@@ -5897,7 +5908,7 @@
 			(net 11 "/D3")
 			(pinfunction "P4")
 			(pintype "output")
-			(uuid "46fe7f8b-d8ca-4668-9944-c196efa469ba")
+			(uuid "f69af650-8063-4787-904d-2bd4b3472cc4")
 		)
 		(pad "5" thru_hole circle
 			(at 1.25 0)
@@ -5908,7 +5919,7 @@
 			(net 5 "VDD")
 			(pinfunction "P5")
 			(pintype "input")
-			(uuid "4d6792d9-2b71-4890-9e42-3bf185e5ae77")
+			(uuid "6313fb33-7edd-461f-a343-be19368514ab")
 		)
 		(pad "6" thru_hole circle
 			(at -8.8 11)
@@ -5919,7 +5930,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "input")
-			(uuid "19e41c72-df5b-45cc-80ec-b1e12813677f")
+			(uuid "9414101e-d72b-4c25-afbd-beb0133061a5")
 		)
 		(pad "6" thru_hole circle
 			(at 8.8 11)
@@ -5930,7 +5941,18 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "input")
-			(uuid "e8681497-ec02-4d12-93fa-d8393dfda5d8")
+			(uuid "5ac6cfeb-5684-4376-9f8d-f6aa81ef5a69")
+		)
+		(model "/Users/biomurph/Documents/biomurph github/GrayCode_Encoder_Board/assets/PAC18R_Model.step"
+			(offset
+				(xyz 8.5 0.5 0)
+			)
+			(scale
+				(xyz 1 0.9 1)
+			)
+			(rotate
+				(xyz 0 0 -90)
+			)
 		)
 	)
 	(gr_poly
