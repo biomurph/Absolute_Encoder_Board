@@ -5730,7 +5730,7 @@
 	(footprint "Flywheel:PAC18R"
 		(layer "B.Cu")
 		(uuid "accc62a4-b3bf-4875-b5c6-f0ae88a7caa7")
-		(at 221.8 64.819806)
+		(at 221.8 64.819804)
 		(property "Reference" "S1"
 			(at 9.6 -1.019806 0)
 			(unlocked yes)
