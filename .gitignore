@@ -11,3 +11,5 @@
 *.ods
 *.bmp
 *.kicad_pcb.lck
+*.kicad_sch.lck
+
