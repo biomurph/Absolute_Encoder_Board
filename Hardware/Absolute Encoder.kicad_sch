@@ -2866,7 +2866,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1d1a4cee-0206-4c77-b37c-8bcca6b40e1b")
-		(property "Reference" "S2"
+		(property "Reference" "S1"
 			(at 61.595 102.235 0)
 			(effects
 				(font
@@ -2933,7 +2933,7 @@
 		(instances
 			(project "Absolute Encoder"
 				(path "/e9a1f795-9b0b-4ff9-9b00-3d3b4875d365"
-					(reference "S2")
+					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -3649,7 +3649,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7fb78df7-4fb7-427b-9097-c51c69817d37")
-		(property "Reference" "S1"
+		(property "Reference" "S2"
 			(at 61.595 82.55 0)
 			(effects
 				(font
@@ -3716,7 +3716,7 @@
 		(instances
 			(project "Absolute Encoder"
 				(path "/e9a1f795-9b0b-4ff9-9b00-3d3b4875d365"
-					(reference "S1")
+					(reference "S2")
 					(unit 1)
 				)
 			)

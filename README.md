@@ -61,13 +61,11 @@ The only difference with the pinout on the right edge is the SER_IN pin. When da
 Here is the schematic
 ![GrayCode Schematic](assets/Absolute_Encoder_Schem.png)
 
-Here is a photo of the hardware prototype
-![First Prototype](assets/AbsEnc-prototype.jpg)
+Here is a photo of the production ready prototype
+![AEB_bareBoard](assets/AEB_bareBoard.jpg)
+![AEB_compSide](assets/AEB_compSide.jpg)
+![AEB_iso](assets/AEB_iso.jpg)
+![AEB_scale](assets/AEB_scale.jpg)
 
-Here are renderings of the design, done in KiCAD.
-
-
-![Board Bottom](assets/Absolute_Encoder_Bottom.png)
-![Board Top](assets/Absolute_Encoder_Top.png)
 
 
