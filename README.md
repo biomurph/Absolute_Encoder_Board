@@ -2,7 +2,7 @@
 Welcome to the Open-Source Absolute Encoder Board Repository. Here you will find hardware designs and files that support the Absolute Encoder. The [GrayCode Arduino Library](https://github.com/biomurph/GrayCode) is available for installation via the Arduino IDE, just do a search for GrayCode in the Libraries Manager 
 
 ## What is it?
-Encoders come in different types. Most people are familiar with [quadrature encoders](https://en.wikipedia.org/wiki/Incremental_encoder#Quadrature_outputs), which use two pins that change state sequentially in different order depending on the direction of rotation. One of the limitations of quadrature is that a microcontroller needs to be paying attention (usually with pin-change interrupts) in order to keep track of each step and count accordingly CW or CCW steps. In certain applications, the need for interrupts and constant attention to the encoder pin change can be limiting. Enter the Absolute encoder. This device can have 3 or more pins that maintain their coded state to show their rotational position. That means that any time you want to, you can read the encoder pins and get the correct positon without having to always keep track.
+Encoders come in different types. Most people are familiar with [quadrature encoders](https://en.wikipedia.org/wiki/Incremental_encoder#Quadrature_outputs), which use two pins that change state sequentially in different order depending on the direction of rotation. One of the limitations of quadrature is that a microcontroller needs to be paying attention (usually with pin-change interrupts) in order to keep track of each step and count accordingly CW or CCW steps. In certain applications, the need for interrupts and constant attention to the encoder pin change can be limiting. Enter the Absolute encoder. This device can have 3 or more pins that maintain their coded state to show their rotational position. That means that any time you want to, you can read the encoder pins and get the correct positon without having to always keep track. Wikipedia has a great [Gray Code Page](https://en.wikipedia.org/wiki/Gray_code) for those who want to deep dive.
 
 Why would you want an absolute encoder over a quadrature encoder?
 
@@ -33,17 +33,25 @@ Decimal  | Binary  | Gray
 14  | 1110 | 1001
 15  | 1111 | 1000
 
-Here's another rendering of the Gray code, arranged in a circle. This is the bit pattern of the dial when it is traveled counter clockwise.
+Here's another rendering of the Gray code, arranged in a circle. This is the bit pattern of the dial, counting up when it is traveled clockwise.
 
-![GrayCodeWheel](assets/GrayCodeWheel.bmp)
+![GrayCodeWheel](assets/GrayCodeWheel.png)
 
 ## Hardware
 
 The hardware is in prototype stage. I am using the [PAC18R](https://github.com/biomurph/Absolute_Encoder_Board/blob/main/assets/pac18r-2511013.pdf) Absolute Encoder from Bourns. They have a 5 pin output, 4 signal pins and 1 common pin, and come in 8 or 16 switch positions. These encoders have detents, which means they 'snap' into rotational position much like an old CRT television set knob does. The board design will carry 2 encoders and use a PISO shift register to read their positions. SW1 position data is in the low nibble, and SW2 data is in the high nibble. These boards can be daisy-chained, and the GrayCode library is designed to read off as many encoder boards as you have connected. The distance between the encoders is 35mm (1 3/8") on center.
 
-**NOTE: This board works with 8 position and 16 position absolute encoders!**
+### ENCODER SWITCH ORIANTATION
 
-There are 6 pins on each end of the board which allow for daisy-chaining mulitiple boards together. The Inhibit pin is pulled LOW on the board, so you don't need to use it unless you need to use it.
+The PAC18R comes in 8, 12, and 16 position variants. I have not seen the 12 position switch widely available, but the GrayCode library will handle it if you come across one. The shafts on them are 6mm diameter and flatted D type. The flatted side, if you are relying on it, is positioned differently relative to the 0 (zero) position. Here's a diagram showing where the flatted position of the shaft is at position 0 for each switch relative to the PCB. 
+
+![FlattedD](assets/FlattedD.png) 
+
+**NOTE: The 12 position variant has the same flatted D orientation as the 16 position variant**
+
+### PIN CONNECTIONS
+
+There are 6 pins on each end of the board which allow for daisy-chaining mulitiple boards together. The Inhibit pin is pulled LOW  on the board, so you don't need to use it unless you need to use it (HIGH is Inhibit, LOW is Hibit). 
 The pinout on the left edge is as follows:
 
 Pin Name  |  Function
@@ -68,4 +76,5 @@ Here is a photo of the production ready prototype
 ![AEB_scale](assets/AEB_scale.jpg)
 
 
+Absolute Encocder Documentation © 2024 by Joel Murphy is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/?ref=chooser-v1)
 
