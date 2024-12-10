@@ -1,3 +1,5 @@
+#DEVELOPMENT BRANCH
+
 # Absolute Encoder Board
 Welcome to the Open-Source Absolute Encoder Board Repository. Here you will find hardware designs and files that support the Absolute Encoder. The [GrayCode Arduino Library](https://github.com/biomurph/GrayCode) is available for installation via the Arduino IDE, just do a search for GrayCode in the Libraries Manager 
 

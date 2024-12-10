@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "AbsoluteEncoder_Library")(type "KiCad")(uri "${KIPRJMOD}/KiCad_Library/AbsoluteEncoder_Library.kicad_sym")(options "")(descr ""))
+)
