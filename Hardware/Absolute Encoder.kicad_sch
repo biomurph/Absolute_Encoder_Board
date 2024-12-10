@@ -2188,18 +2188,6 @@
 		)
 		(uuid "fe68de76-2775-42ff-b16e-6b13b6fb8392")
 	)
-	(text "YOU ARE IN THE DEVELOPMENT BRANCH!"
-		(exclude_from_sim no)
-		(at 149.86 32.385 0)
-		(effects
-			(font
-				(size 2.032 2.032)
-				(thickness 0.4064)
-				(bold yes)
-			)
-		)
-		(uuid "afccf6c6-16b2-4cbc-9fa3-865e1b143b57")
-	)
 	(text "3-5V INPUT"
 		(exclude_from_sim no)
 		(at 212.09 56.515 0)
@@ -3500,7 +3488,6 @@
 		)
 	)
 	(symbol
-		(lib_name "AbsoluteEncoder_Library:PAC18R")
 		(lib_id "AbsoluteEncoder_Library:PAC18R")
 		(at 64.135 109.855 0)
 		(unit 1)
@@ -3721,7 +3708,6 @@
 		)
 	)
 	(symbol
-		(lib_name "AbsoluteEncoder_Library:PAC18R")
 		(lib_id "AbsoluteEncoder_Library:PAC18R")
 		(at 64.135 90.17 0)
 		(unit 1)
